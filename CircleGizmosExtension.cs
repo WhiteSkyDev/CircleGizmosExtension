@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CircleGizmosExtension : MonoBehaviour
+public class CircleGizmosExtension
 {
     public static void DrawWireCircle(Vector3 center, Vector3 forward, Vector3 right, float radius, int divide = 16)
     {
